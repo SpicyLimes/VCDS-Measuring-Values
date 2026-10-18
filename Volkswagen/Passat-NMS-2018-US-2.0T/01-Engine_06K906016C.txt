@@ -1,0 +1,830 @@
+VCDS 01-ENGINE - ADVANCED MEASURING VALUES
+Vehicle: 2018 VW Passat (US, B8 NMS), 2.0 TSI EA888 Gen 3B, engine code DDSA
+Module: 01 Engine J623, SW 06K 906 016 C, HW 06K 907 309, R4 2.0l TSI H30 9609
+VCDS label file: 06K-907-425-V2.clb   VCDS 26.9.0, data DS378.0
+Rows: 817
+
+- Every row VCDS lists, in VCDS order, duplicates included.
+- "-ENG188621" after an ID = a "Bits 0-7" sub-item of that ID.
+- "..." at the end of a description = VCDS itself cuts it off there.
+- The CSV version has a notes column with values seen in real logs.
+
+ID                      Description
+----------------------  ------------------------------------------------------------
+IDE00011                Vehicle Identification Number (VIN)
+IDE00019                Voltage terminal 30
+IDE00020-ENG188621      Terminal 15 status-Bits 0-7
+IDE00021                Engine speed
+IDE00025                Coolant temperature
+IDE00030                Status of actuator test
+IDE00075                Vehicle speed
+IDE00076                Status of initial fuel filling
+IDE00078                Time since engine start
+IDE00083                Throttle valve position (absolute)
+IDE00084                Absolute load value
+IDE00085                Normed load value
+IDE00086                Accelerator pedal position
+IDE00090-ENG188621      selected gear-Bits 0-7
+IDE00097                OBD - requirements for which this vehicle is designed
+IDE00100                Engine torque
+IDE00148                Mean injection time
+IDE00150                Pressure in brake servo unit
+IDE00151                Oil fill level
+IDE00152                Oil warning threshold
+IDE00155                Ignition timing angle retard cylinder 1
+IDE00156                Ignition timing angle retard cylinder 2
+IDE00157                Ignition timing angle retard cylinder 3
+IDE00158                Ignition timing angle retard cylinder 4
+IDE00167                Exhaust temperature 1 bank 1
+IDE00172                A/C compressor torque
+IDE00173                Cruise Control System: specified speed
+IDE00174                Camshaft adjustment: exhaust: bank 1: specified value
+IDE00175                Camshaft adjustment: exhaust: bank 1: actual value
+IDE00178                Camshaft adjustment intake bank 1: specified value
+IDE00179                Camshaft adjustment intake bank 1: actual value
+IDE00182                Camshaft adaptation intake bank 1: phase position
+IDE00184                Camshaft adaptation exhaust bank 1: phase position
+IDE00186                Fuel low pressure: actual value
+IDE00187                Coolant temperature at engine start
+IDE00188                Fuel high-pressure: actual value
+IDE00190                Charge air pressure: specified value
+IDE00191                Charge air pressure: actual value
+IDE00192                Coolant temperature at radiator outlet: actual value
+IDE00194                Coolant temperature at radiator output: specified value
+IDE00196                Engine oil temperature
+IDE00201                Fuel high-pressure: specified value
+IDE00202                Low fuel pressure: specified value
+IDE00304                Fuel level
+IDE00322                Status of basic setting
+IDE00323                Security Access: Number of invalid keys
+IDE00347                Air mass: actual value:
+IDE00348                Intake air temperature
+IDE00349                Throttle valve position: normed
+IDE00350                Air mass: specified value
+IDE00354                Engine start: start synchronization
+IDE00354-ENG127291      Engine start: start synchronization-Test_Program_Epm st Op Mode State t UBYTE
+IDE00355-ENG188621      Cruise Control System (CCS): status-Bits 0-7
+IDE00357                Fuel temperature
+IDE00358                Limitation: torque
+IDE00360                Limitation: accelerator pedal
+IDE00361                Ambient air pressure
+IDE00371                Fuel consumption
+IDE00375                Generator: load signal
+IDE00380                Coolant fan 1: activation
+IDE00392                Accelerator pedal: sensor voltage 1
+IDE00393                Accelerator pedal: sensor voltage 2
+IDE00394                Camshaft position: start of phase window
+IDE00405                Crankshaft speed (RPM)
+IDE00406                Camshaft RPM
+IDE00412-ENG188621      Starter control: terminal 50-Bits 0-7
+IDE00413-ENG188621      Starter control: Interlock- or P/N-signal-Bits 0-7
+IDE00414-ENG188621      Starter control: relay 1-Bits 0-7
+IDE00416-ENG188621      Starter control: terminal 50 feedback-Bits 0-7
+IDE00417-ENG188621      Starter control: shut-off conditions 1-Bits 0-7
+IDE00417-ENG188621      Starter control: shut-off conditions 1-Bits 0-7
+IDE00443-ENG188621      Accelerator pedal: switch positions-Bits 0-7
+IDE00445                Unlearning counter according OBD
+IDE00450                Operating instruction
+IDE00451                Currently running routine
+IDE00474                Ambient air pressure
+IDE00477                Torque request: sum of auxiliary aggregate
+IDE00496-ENG188621      Oil pressure switch valve activation-Bits 0-7
+IDE00497-ENG188621      Status of oil pressure switches-Bits 0-7
+IDE00541                Acceleration
+IDE00556                Outside temperature
+IDE00559                Current of oxygen sensor bank 1 sensor 1 (broadband sensor)
+IDE00560-MAS04121       Oxygen sensor bank 1 sensor 2 (jump sensor)-Voltage
+IDE00560-MAS04122       Oxygen sensor bank 1 sensor 2 (jump sensor)-Short term adaptation of mixture formation
+IDE00582                Specified value of equivalence ratio
+IDE00583                Throttle valve specified value
+IDE00584                Distance driven since erasing DTC memory
+IDE00585                Dist. driven with exh. Malfunction Indicator Lamp activated
+IDE00588                Fuel tank fill level
+IDE00589                Fuel pressure
+IDE00592                Status of oxygen sensor control
+IDE00593                Ignition timing adjustment cylinder 1
+IDE00594                Absolute intake pressure
+IDE00595                Allocation of oxygen sensors
+IDE00597                Long term adaptation of mixture formation bank 1
+IDE00601                Monitoring status since erasing DTC memory
+IDE00602                Monitoring status in current driving cycle
+IDE00603                Number of driving cycles since erasing DTC memory
+IDE00604                Short term adaptation of mixture formation bank 1
+IDE00608                Fuel type
+IDE00612                Target position of EVAP canister valve
+IDE00699                ESI: minimum oil level in service interval
+IDE00700                ESI: maximum oil level in service interval
+IDE00727                Test steps still to be performed
+IDE00738                Oxygen sensor test: bank 1: delta lambda
+IDE00773                Terminal 15 status via CAN
+IDE00787                Cause for cancellation
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949                Hide cylinder
+IDE00949-ENG127318      Hide cylinder-Test_Program_cylinder 1
+IDE00949-ENG127309      Hide cylinder-Test_Program_cylinder 10
+IDE00949-ENG127308      Hide cylinder-Test_Program_cylinder 11
+IDE00949-ENG127307      Hide cylinder-Test_Program_cylinder 12
+IDE00949-ENG127306      Hide cylinder-Test_Program_cylinder 13
+IDE00949-ENG127305      Hide cylinder-Test_Program_cylinder 14
+IDE00949-ENG127304      Hide cylinder-Test_Program_cylinder 15
+IDE00949-ENG127303      Hide cylinder-Test_Program_cylinder 16
+IDE00949-ENG127317      Hide cylinder-Test_Program_cylinder 2
+IDE00949-ENG127316      Hide cylinder-Test_Program_cylinder 3
+IDE00949-ENG127315      Hide cylinder-Test_Program_cylinder 4
+IDE00949-ENG127314      Hide cylinder-Test_Program_cylinder 5
+IDE00949-ENG127313      Hide cylinder-Test_Program_cylinder 6
+IDE00949-ENG127312      Hide cylinder-Test_Program_cylinder 7
+IDE00949-ENG127311      Hide cylinder-Test_Program_cylinder 8
+IDE00949-ENG127310      Hide cylinder-Test_Program_cylinder 9
+IDE00973                Outside temperature
+IDE01076                Time since ignition off
+IDE01260                Generator performance
+IDE01266-ENG188621      Coolant shut-off valve-Bits 0-7
+IDE01267                Height correction
+IDE01378                Fuel high pressure: control deviation
+IDE01385-ENG188621      Wear index-Bits 0-7
+IDE01385-ENG188621      Wear index-Bits 0-7
+IDE01386-ENG188621      Soot index-Bits 0-7
+IDE01386-ENG188621      Soot index-Bits 0-7
+IDE01405-ENG188621      Starter activation: status-Bits 0-7
+IDE01644                Oxygen sensor voltage B1 downstream CAT
+IDE01650                Throttle valve position 2
+IDE01773                Misfire totalizer
+IDE01774                Status misfire recognition
+IDE01774-ENG127319      Status misfire recognition-Test_Program_Channel 232
+IDE01775                Misfires per 1000 revolutions of cylinder 1
+IDE01776                Misfires per 1000 revolutions of cylinder 2
+IDE01777                Misfires per 1000 revolutions of cylinder 3
+IDE01778                Misfires per 1000 revolutions of cylinder 4
+IDE01834                Battery voltage
+IDE01869                Long-term fuel trim bank 1 at idle
+IDE01873                Test of catalytic converter: measured value
+IDE01875                Required torque adjustment by idling regulator
+IDE01876                Adaptation of loss torque
+IDE01878-ENG159537      Adaptation of throttle valve-Byte
+IDE01879                Adaptation of throttle valve: result
+IDE01879-ENG127324      Adaptation of throttle valve: result-Test_Program_Channel 698
+IDE01880                Accelerator pedal position 2
+IDE01881                Adaptation of kick-down shifting point
+IDE01884                Camshaft adjustment intake bank 1: activation
+IDE01887                Fuel pump adaptation
+IDE01888                Cold start enrichment: adaptation area 1
+IDE01889                Cold start enrichment: adaptation area 2
+IDE01890                Cold start enrichment: adaptation area 3
+IDE01891                Cold start enrichment: adaptation area 4
+IDE01892                Cold start enrichment: adaptation area 5
+IDE01893                Fuel pump: specified value
+IDE01896                Charge pressure control: damping grtr max. threshold adaptation
+IDE01897                Charge pressure control: damping lsr min. threshold adaptation
+IDE01899                Load value: corrected specified value
+IDE01900                Charge press. ctrl.: spec. value
+IDE01901                Lost torque adaptation: idle
+IDE01902                Lost torque adaptation A/C compressor
+IDE01903                Lost torque adaptation driving mode
+IDE01904                Lost torque adaptation A/C compressor and driving mode
+IDE01909                Short term adapt. throttle valve for mass air flow sensor
+IDE01910                Long term adaptation of throttle valve for mass air flow sensor
+IDE01911                Leakage air
+IDE01912                Oxygen sensor bank 1 sensor 1: specified value
+IDE01916                Leakage recognition from oxygen sensor control
+IDE01917                Leakage after throttle valve
+IDE01918                Leakage before throttle valve
+IDE01922                Vehicle distance driven
+IDE01923                Control module distance driven
+IDE01924                Load shift flaps: actual value
+IDE01925                Load shift flaps: specified value
+IDE01926                Adaptation of intake manifold runner flaps
+IDE01928                Close cam shaft angle at quantity control valve
+IDE01929                Open cam shaft angle at quantity control valve
+IDE01930                High pressure regulation: adaptation value
+IDE01932                High pressure pump injection volume
+IDE01975                Numb.of misfir.: cylinder 1
+IDE01976                Numb.of misfir.: cylinder 2
+IDE01977                Numb.of misfir.: cylinder 3
+IDE01978                Numb.of misfir.: cylinder 4
+IDE02117                Relative load value
+IDE02119                Long term adaptation of oxygen sensor control: bank 1
+IDE02211                Brake pressure
+IDE02540-ENG188621      Longitudinal acceleration sensor: status-Bits 0-7
+IDE02756-ENG188621      Number of manual engine starts-Bits 0-7
+IDE02756-ENG188621      Number of manual engine starts-Bits 0-7
+IDE02757-ENG188621      Number of automatic engine starts-Bits 0-7
+IDE02757-ENG188621      Number of automatic engine starts-Bits 0-7
+IDE02832                Coolant circulation pump: activation
+IDE03189-ENG102843      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Air Density
+IDE03189-ENG102547      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Brake Boost
+IDE03189-ENG103808      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG101159      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Random
+IDE03189-ENG104187      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Regeneration Mode
+IDE03189-ENG100165      Number of prevented stop processes (statistics)-SSEUI Counter Stop Prohibited By Start Behavior
+IDE03189-ENG99535       Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Air Density
+IDE03189-ENG103192      Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Brake Boost
+IDE03189-ENG99739       Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG100597      Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Random
+IDE03189-ENG101689      Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Regeneration Mode
+IDE03189-ENG100582      Number of prevented stop processes (statistics)-SSEUI Day Stop Prohibited By Start Behavior
+IDE03189-ENG101720      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Air Density
+IDE03189-ENG100669      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Brake Boost
+IDE03189-ENG100932      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG101264      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Random
+IDE03189-ENG102430      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Regeneration Mode
+IDE03189-ENG101165      Number of prevented stop processes (statistics)-SSEUI Hours Stop Prohibited By Start Behavior
+IDE03189-ENG101829      Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Air Density
+IDE03189-ENG99286       Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Brake Boost
+IDE03189-ENG102800      Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG102751      Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Random
+IDE03189-ENG101356      Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Regeneration Mode
+IDE03189-ENG99669       Number of prevented stop processes (statistics)-SSEUI Mileage Stop Prohibited By Start Behavior
+IDE03189-ENG103828      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Air Density
+IDE03189-ENG103959      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Brake Boost
+IDE03189-ENG102465      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG102710      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Random
+IDE03189-ENG103568      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Regeneration Mode
+IDE03189-ENG100877      Number of prevented stop processes (statistics)-SSEUI Minutes Stop Prohibited By Start Behavior
+IDE03189-ENG101280      Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Air Density
+IDE03189-ENG99226       Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Brake Boost
+IDE03189-ENG101471      Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG102877      Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Random
+IDE03189-ENG100198      Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Regeneration Mode
+IDE03189-ENG101676      Number of prevented stop processes (statistics)-SSEUI Month Stop Prohibited By Start Behavior
+IDE03189-ENG103694      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Air Density
+IDE03189-ENG104142      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Brake Boost
+IDE03189-ENG100353      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Fuel Mixture Adaption
+IDE03189-ENG100878      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Random
+IDE03189-ENG101433      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Regeneration Mode
+IDE03189-ENG100557      Number of prevented stop processes (statistics)-SSEUI Year Stop Prohibited By Start Behavior:
+IDE03190-ENG100538      Number of requested start processes (statistics)-SSEUI Counter Start Desired By Brake Boost
+IDE03190-ENG100036      Number of requested start processes (statistics)-SSEUI Counter Start Desired By High Engine Temperature
+IDE03190-ENG103639      Number of requested start processes (statistics)-SSEUI Counter Start Desired By Low Engine Temperature
+IDE03190-ENG102427      Number of requested start processes (statistics)-SSEUI Day Start Desired By Brake Boost
+IDE03190-ENG99459       Number of requested start processes (statistics)-SSEUI Day Start Desired By High Engine Temperature
+IDE03190-ENG99665       Number of requested start processes (statistics)-SSEUI Day Start Desired By Low Engine Temperature
+IDE03190-ENG99329       Number of requested start processes (statistics)-SSEUI Hours Start Desired By Brake Boost
+IDE03190-ENG100944      Number of requested start processes (statistics)-SSEUI Hours Start Desired By High Engine Temperature
+IDE03190-ENG100535      Number of requested start processes (statistics)-SSEUI Hours Start Desired By Low Engine Temperature
+IDE03190-ENG102737      Number of requested start processes (statistics)-SSEUI Mileage Start Desired By Brake Boost
+IDE03190-ENG101377      Number of requested start processes (statistics)-SSEUI Mileage Start Desired By High Engine Temperature
+IDE03190-ENG99682       Number of requested start processes (statistics)-SSEUI Mileage Start Desired By Low Engine Temperature
+IDE03190-ENG102760      Number of requested start processes (statistics)-SSEUI Minutes Start Desired By Brake Boost
+IDE03190-ENG103163      Number of requested start processes (statistics)-SSEUI Minutes Start Desired By High Engine Temperature
+IDE03190-ENG101771      Number of requested start processes (statistics)-SSEUI Minutes Start Desired By Low Engine Temperature
+IDE03190-ENG100816      Number of requested start processes (statistics)-SSEUI Month Start Desired By Brake Boost
+IDE03190-ENG104013      Number of requested start processes (statistics)-SSEUI Month Start Desired By High Engine Temperature
+IDE03190-ENG104020      Number of requested start processes (statistics)-SSEUI Month Start Desired By Low Engine Temperature
+IDE03190-ENG103223      Number of requested start processes (statistics)-SSEUI Year Start Desired By Brake Boost
+IDE03190-ENG103563      Number of requested start processes (statistics)-SSEUI Year Start Desired By High Engine Temperature
+IDE03190-ENG103316      Number of requested start processes (statistics)-SSEUI Year Start Desired By Low Engine Temperature
+IDE03262                Adapt of angle sensor 1 f throttle valve
+IDE03263                Adapt of angle sensor 2 f throttle valve
+IDE03362                Requested transmission torque
+IDE03377                Coolant temp at radiator output: unconditioned voltage
+IDE03393-ENG188621      Selector lever position-Bits 0-7
+IDE03493-ENG121091      Driver's door status-Dsplb Drv Door Act Opn
+IDE03583-ENG188621      Engine shut-down overrides-Bits 0-7
+IDE03584-ENG188621      Engine starting requirements-Bits 0-7
+IDE03585                System status for the start/stop function master
+IDE03586-ENG188621      Starting requirements for active participants-Bits 0-7
+IDE03586-ENG188621      Starting requirements for active participants-Bits 0-7
+IDE03587-MAS00075       Stopping prohibitions for active participants-ABS Control Module
+IDE03587-MAS00077       Stopping prohibitions for active participants-Immobilizer
+IDE03587-MAS00124       Stopping prohibitions for active participants-A/C system
+IDE03587-MAS00798       Stopping prohibitions for active participants-Transmission Control Module (TCM)
+IDE03587-MAS00829       Stopping prohibitions for active participants-Access/start authorization
+IDE03588-MAS00075       System malfunctions for active participants start/stop-ABS Control Module
+IDE03588-MAS00124       System malfunctions for active participants start/stop-A/C system
+IDE03588-MAS00798       System malfunctions for active participants start/stop-Transmission Control Module (TCM)
+IDE03588-MAS00829       System malfunctions for active participants start/stop-Access/start authorization
+IDE03589-ENG188621      Error status for start-stop related sensors-Bits 0-7
+IDE03660                Longitudinal acceleration
+IDE03709                Angle difference actual-specified camshaft adjuster
+IDE03711                Mass flow through throttle valve
+IDE03767                Engine status
+IDE03767-ENG127290      Engine status-Test_Program_Co Eng st COMPU VERB UBYTE
+IDE03795                Camshaft adjustment: exhaust: bank 1: activation
+IDE03806-ENG188621      Oxygen sensor bank 1 sensor 1: status-Bits 0-7
+IDE03807-ENG188621      Oxygen sensor bank 1 sensor 2: status-Bits 0-7
+IDE03818-ENG99405       Heated oxygen sensor bank 1: sensor 2: resistance-R uw q2 UWORD Chann 120
+IDE03818-ENG127296      Heated oxygen sensor bank 1: sensor 2: resistance-Test_Program_Bitregister
+IDE03820                Heated oxygen sensor bank 1: sensor 1: resistance
+IDE03821                Heated oxygen sensor bank 1: sensor 1: activation
+IDE03932                Charge pressure actuator: specified position
+IDE03934                Charge pressure actuator: adaptation for lower stop
+IDE03935                Charge air pressure actuator: adaptation for upper stop
+IDE03951-ENG114937      Intake manifold pressure adjustment recovery conditions-Bhedp sr
+IDE03952-ENG114938      Intake manifold pressure plausibility check recovery conditions-Bhepl psr
+IDE03953                Oxygen control: adaptation value at partial load: bank 1
+IDE03954-ENG112663      Throttle valve adaptation steady state condition-Badko se
+IDE03955-ENG114936      Intake manifold pressure model steady state condition-Bapsl mdse
+IDE03966                Transmission neutral position sensor PWM signal
+IDE04002                Charge air pressure control
+IDE04083                Coolant temperatures
+IDE04256                Temp sensor for engine coolant: unconditioned voltage
+IDE04278                Bypass valve f high press turboch turbine inlet: target value
+IDE04279                Bypass valve f high press turboch turbine inlet: actual value
+IDE04280                Bypass valve f high press turboch turbine inlet: offset closed
+IDE04281                Bypass valve f high press turboch turbine inlet: offset open
+IDE04301                Bypass valve for high press turboch turbine inlet: activation
+IDE04302-ENG188621      Bypass valve for high press turbocharger turbine inlet: status-Bits 0-7
+IDE04302-ENG188621      Bypass valve for high press turbocharger turbine inlet: status-Bits 0-7
+IDE04302-ENG188621      Bypass valve for high press turbocharger turbine inlet: status-Bits 0-7
+IDE04302-ENG188621      Bypass valve for high press turbocharger turbine inlet: status-Bits 0-7
+IDE04303                Bypass valve for high press turboch turbine inlet: uncond volt
+IDE04409                Intake manifold pressure: corrected
+IDE04410                Intake manifold pressure: specified value
+IDE04414                Cat conv temp: modeled
+IDE04420                Secondary air system activation
+IDE04604                Accelerator pedal travel
+IDE04630                AVS valve stroke position: current
+IDE04630-ENG138014      AVS valve stroke position: current-Test_Program_Xaied Fa Ehan Adc jnotd jb n 0 A1T UBYTE
+IDE04638                Transmission coolant valve
+IDE04638-ENG127289      Transmission coolant valve-Test_Program_B TRUE UBYTE
+IDE04651                Torque request: A/C compressor
+IDE04670                Crankshaft signal evaluation: status
+IDE04670-ENG127292      Crankshaft signal evaluation: status-Test_Program_Epm H Cr S st Sig Mode State t UBYTE
+IDE04685                Setpoint generation interior torque
+IDE04689                Starter control: Start interruption status
+IDE04689-ENG127289      Starter control: Start interruption status-Test_Program_B TRUE UBYTE
+IDE04692                Reducing desired torque intervention of ESP
+IDE04693                Increasing desired torque intervention of ESP
+IDE04695-ENG137752      Immobilizer snapshot A-Sia Error Snap
+IDE04696-ENG137752      Immobilizer snapshot B-Sia Error Snap
+IDE04814                Transmission oil cooler valve
+IDE04814-ENG127289      Transmission oil cooler valve-Test_Program_B TRUE UBYTE
+IDE04820                Fuel content due to degassing of engine oil
+IDE04858                Brake booster low pressure actual value
+IDE04872                Brake pedal value sensor: relative value filtered
+IDE04885                Hybrid batt charge cond act val standardized
+IDE04887                Powertrain target torque
+IDE04889                Target torque for combustion engine crankshaft level
+IDE04909-ENG188621      Operating mode of hybrid system-Bits 0-7
+IDE04933                Number of fill level decreases
+IDE04934                Last odometer reading since fill level decrease
+IDE04935                Next to last odometer reading since fill level decrease
+IDE04936                3rd last mileage reading since fill level decrease
+IDE05128                Intake air temperature in intake manifold bank 1
+IDE05135                Status of compressor release
+IDE05135-ENG127289      Status of compressor release-Test_Program_B TRUE UBYTE
+IDE05138                Shut-off timer: last engine shut-off time
+IDE05140                Intake manifold pressure raw value
+IDE05221                Electric drive torque: actual value
+IDE05240-ENG188621      Request for A/C compressor power reduction-Bits 0-7
+IDE05241-ENG188621      A/C compressor release status-Bits 0-7
+IDE05260-ENG188621      Gear position sensor: current value-Bits 0-7
+IDE05261-ENG188621      Gear position sensor: last valid value-Bits 0-7
+IDE05262                Gear position sensor: gear position valid
+IDE05262-ENG127289      Gear position sensor: gear position valid-Test_Program_B TRUE UBYTE
+IDE05327                Activation for electrical auxiliary coolant pump in HT circuit
+IDE05332-ENG188621      Heat request from heater to thermal management-Bits 0-7
+IDE05436                Engine operating condition
+IDE05436-ENG127326      Engine operating condition-Test_Program_Channel 87
+IDE05437                Outside air temperature via CAN
+IDE05438                Rear cat conv temp main cat conv model value
+IDE05440                ESI: Soot equiv 2 calculated from soot index
+IDE05442                Roadway slope angle acceleration interface: calculated
+IDE05444                Air filling: specified value
+IDE05445                Pressure before throttle valve of pressure sensor
+IDE05449                O2 sensor 2: B1: internal resistance limit
+IDE05462                Oxy sensor 1 bank 1 char curve offset
+IDE05468                Oxygen sensor 1 bank 1 ceramic temp
+IDE05470                Cat converter oxygen storage capacity
+IDE05474                Main cat converter OSC age correction factor
+IDE05476                Cat converter oxygen storage capacity measured
+IDE05479                Misfire recognition reference moment
+IDE05482                Tank venting adaptation factor
+IDE05484                Servo pump desired actual torque for idle control
+IDE05485-ENG188621      Irregular shutdown of the counter control mod-Bits 0-7
+IDE05486                Current system status
+IDE05486-ENG127293      Current system status-Test_Program_Exe Con State 02 UBYTE
+IDE05488                Coolant temperature modeled value
+IDE05497                Adaptation value of the charge pressure control
+IDE05593                Secondary air injection sensor 1
+IDE05622                Status of tank leak diagnosis with electrical diagnostic pump
+IDE05797                Throttle valve adapter: specified value
+IDE05809                Counter: implaus. short-term adapt. values: misfire detection
+IDE05928                Fuel consumption since DTC memory last erased
+IDE05941-ENG112665      Enable condition: camshaft control-Bnws
+IDE05950                Charge pressure control adaptation value 1
+IDE05951                Charge pressure control adaptation value 2
+IDE05952                Charge pressure control adaptation value 3
+IDE06014                Charge pressure control adaptation value 0
+IDE06015                Time since terminal 15 off: start/stop
+IDE06017                Camshaft position deviation from reference position
+IDE06020                Intake air temperature in intake manifold bank raw value
+IDE06039                Required RPM at idle speed
+IDE06040                High fuel pressure: regulator output value
+IDE06041-ENG188621      PDTC drive cycle conditions status-Bits 0-7
+IDE06043                Cylinder head temperature: actual value
+IDE06045-ENG188621      Output Diagnostic Test Mode (DTM) status-Bits 0-7
+IDE06048                Drive time with activated exhaust malfunction indicator lamp
+IDE06049                Pressure in brake booster: raw value
+IDE06098                Sensor control factor: output value
+IDE06112-ENG188621      Test of cylinder deactivation-Bits 0-7
+IDE06192                Knock sensor: cylinder 2: voltage
+IDE06193                Knock sensor: cylinder 3: voltage
+IDE06194                Knock sensor: cylinder 4: voltage
+IDE06195                Knock sensor: cylinder 1: voltage
+IDE06255                Vehicle lateral acceleration
+IDE06256                Vehicle lateral acceleration: raw value
+IDE06257                Vehicle inclination acceleration angle: raw value
+IDE06386                Oil level: static measurement
+IDE06387                Oil level: last valid dynamic value
+IDE06388                Oil level: condition for static measurement fulfilled
+IDE06391                Oil temperature sensor 2
+IDE06393                Oil level: dynamic average value
+IDE06425-IDE02766       Dynamometer mode: functional-Malfunction status
+IDE06425-MAS06026       Dynamometer mode: functional-Activation stages
+IDE06434-ENG112927      Oxygen control: bank 1: sensor 1: release status-Blrnd A
+IDE06435                A/C compressor: refrigerant pressure
+IDE06436                A/C compressor: refrigerant pressure: raw value
+IDE06445                Longitudinal acceleration: raw value
+IDE06446-ENG188621      Status: incline angle-Bits 0-7
+IDE06495                Results of testing of crankcase ventilation successful
+IDE06496                Results of testing of crankcase ventilation unsuccessful
+IDE06567-ENG188621      Frequency counter deactivate start/stop function-Bits 0-7
+IDE06567-ENG188621      Frequency counter deactivate start/stop function-Bits 0-7
+IDE06568-ENG188621      Stop prevention by driver frequency counter-Bits 0-7
+IDE06568-ENG188621      Stop prevention by driver frequency counter-Bits 0-7
+IDE06569-ENG188621      Frequency counter vehicle standstill-Bits 0-7
+IDE06569-ENG188621      Frequency counter vehicle standstill-Bits 0-7
+IDE06570                Oil level and oil temp. sensor: oil temperature in oil pan
+IDE06610-ENG188621      Frequency counter vehicle standstill with stop-Bits 0-7
+IDE06610-ENG188621      Frequency counter vehicle standstill with stop-Bits 0-7
+IDE06647-ENG188621      Start-stop switch status-Bits 0-7
+IDE06702-ENG188621      Drivetrain coord: cause of shutdown in cruise cntr and ACC mode-Bits 0-7
+IDE06702-ENG188621      Drivetrain coord: cause of shutdown in cruise cntr and ACC mode-Bits 0-7
+IDE06702-ENG188621      Drivetrain coord: cause of shutdown in cruise cntr and ACC mode-Bits 0-7
+IDE06702-ENG188621      Drivetrain coord: cause of shutdown in cruise cntr and ACC mode-Bits 0-7
+IDE06703-ENG188621      Drivetrain coordinator: ACC fault status-Bits 0-7
+IDE06703-ENG188621      Drivetrain coordinator: ACC fault status-Bits 0-7
+IDE06704-ENG188621      Drivetrain coordinator: brake fault status-Bits 0-7
+IDE06705-ENG188621      Drivetrain coordinator: brake function status-Bits 0-7
+IDE06705-ENG188621      Drivetrain coordinator: brake function status-Bits 0-7
+IDE06706-ENG188621      ACC variants-Bits 0-7
+IDE06708-ENG188621      Cruise control switch actuation-Bits 0-7
+IDE06708-ENG188621      Cruise control switch actuation-Bits 0-7
+IDE06709-ENG188621      ACC variants (coding)-Bits 0-7
+IDE06710-ENG188621      Cruise control system: permanent deactivation-Bits 0-7
+IDE06711-ENG188621      Cruise control system: temporary deactivation-Bits 0-7
+IDE06726                Timing deviation after chain replacement: intake bank 1
+IDE06728                Timing deviation after chain replacement: exhaust bank 1
+IDE06730                Timing deviation after other repairs: intake bank 1
+IDE06732                Timing deviation after other repairs: exhaust bank 1
+IDE06734                Timing deviation: current value intake bank 1
+IDE06736                Timing deviation: current value exhaust bank 1
+IDE06738-ENG188621      Chain elongation: no. of valid initial values: intake bank 1-Bits 0-7
+IDE06740-ENG188621      Chain elongation: no. of valid initial values: exhaust bank 1-Bits 0-7
+IDE06742                Chain elongation: initial values valid: intake bank 1
+IDE06742-ENG167942      Chain elongation: initial values valid: intake bank 1-Test_Program_Sw SVW b Vld ag Cm In Ex Adp Ini Lyr V...
+IDE06744                Chain elongation: initial values valid: exhaust bank 1
+IDE06744-ENG167942      Chain elongation: initial values valid: exhaust bank 1-Test_Program_Sw SVW b Vld ag Cm In Ex Adp Ini Lyr...
+IDE06758                Air mass since engine start
+IDE06794                NG to gasoline split factor
+IDE06799-ENG188621      A/C compressor status: HW input-Bits 0-7
+IDE06800                A/C main switch status
+IDE06800-ENG127289      A/C main switch status-Test_Program_B TRUE UBYTE
+IDE06944                A/C compressor: load current: act. value
+IDE06946-ENG188621      Brake actuated status-Bits 0-7
+IDE06947-ENG188621      E-machine operating mode: spec. state-Bits 0-7
+IDE06950-ENG188621      Load request from external load manager-Bits 0-7
+IDE06956-ENG188621      Driver-side belt buckle status-Bits 0-7
+IDE06957                Unfiltered clutch input rpm
+IDE06970                Desired braking torque: driving assistant
+IDE06975-ENG188621      Regeneration stages-Bits 0-7
+IDE07001                Piston-cooling jets: activation
+IDE07031                Oil pressure switch for piston-cooling jets: status
+IDE07050-ENG188621      Starter control: release conditions-Bits 0-7
+IDE07050-ENG188621      Starter control: release conditions-Bits 0-7
+IDE07051-ENG188621      Engaged gear: raw signal-Bits 0-7
+IDE07076                AVS valve stroke position intake
+IDE07077                AVS valve stroke position: exhaust
+IDE07078                AVS result of last switch-over: intake
+IDE07164                Number injections
+IDE07170                Clutch K0: torque
+IDE07194                Calculated increasing transmission engagement torque
+IDE07224-ENG188621      Overrun cut-off-Bits 0-7
+IDE07233-ENG188621      Bit string for status of oil level-Bits 0-7
+IDE07233-ENG188621      Bit string for status of oil level-Bits 0-7
+IDE07234                Status bid for valid static oil level
+IDE07235                Status bid for dynamic oil level
+IDE07238                Status of power transfer
+IDE07240-ENG188621      Status transition of engine control module sequencing-Bits 0-7
+IDE07242                Heater support pump: spec. value
+IDE07254                Gasoline pressure tank refueling request button
+IDE07257                Tank pressure from leakage diagnosis: calculated
+IDE07548                Engine temp. mangmt. actuator: specified value of angle
+IDE07549                Engine temp. mangmt. actuator: actual value of angle
+IDE07550                Engine temp. management actuator: raw value
+IDE07551                Engine temp. management actuator: duty cycle activation
+IDE07553                Engine temperature management actuator: after-run stop
+IDE07554                Engine temperature management actuator: stop open
+IDE07573                Throttle valve adapter: actual value
+IDE07620-ENG188621      Status momentary default during stability intervention-Bits 0-7
+IDE07664                Pre-coordinated torque of increased stability intervention
+IDE07665                Accel. pedal kick-down recognition: voltage threshold
+IDE07666                Spec. torque for electric drive: coordinated output signal
+IDE07667                Desired torque of regeneration
+IDE07796-ENG188621      Turbocharger 1 turbine bypass valve 1 bank 1: position feedback – breakaway attempts-Bits 0-7
+IDE07796-ENG188621      Turbocharger 1 turbine bypass valve 1 bank 1: position feedback – breakaway attempts-Bits 0-7
+IDE07796-ENG188621      Turbocharger 1 turbine bypass valve 1 bank 1: position feedback – breakaway attempts-Bits 0-7
+IDE07796-ENG188621      Turbocharger 1 turbine bypass valve 1 bank 1: position feedback – breakaway attempts-Bits 0-7
+IDE07840-ENG188621      Status plausibility accelerator pedal to brake pedal-Bits 0-7
+IDE07904-ENG188621      Brake test switch status-Bits 0-7
+IDE07905-ENG188621      Brake light switch status-Bits 0-7
+IDE07906-ENG188621      Upper clutch switch: status-Bits 0-7
+IDE07908                Coolant fan activation requested by A/C
+IDE07963-ENG188621      Cam piece counter position malfunction-Bits 0-7
+IDE07963-ENG188621      Cam piece counter position malfunction-Bits 0-7
+IDE07963-ENG188621      Cam piece counter position malfunction-Bits 0-7
+IDE07963-ENG188621      Cam piece counter position malfunction-Bits 0-7
+IDE08071-ENG188621      Remote start cancellation reason store 1-Bits 0-7
+IDE08071-ENG188621      Remote start cancellation reason store 1-Bits 0-7
+IDE08072-ENG188621      Remote start cancellation reason store 2-Bits 0-7
+IDE08072-ENG188621      Remote start cancellation reason store 2-Bits 0-7
+IDE08073-ENG188621      Remote start cancellation reason store 3-Bits 0-7
+IDE08073-ENG188621      Remote start cancellation reason store 3-Bits 0-7
+IDE08074-ENG188621      Remote start cancellation reason store 4-Bits 0-7
+IDE08074-ENG188621      Remote start cancellation reason store 4-Bits 0-7
+IDE08075-ENG188621      Remote start cancellation reason store 5-Bits 0-7
+IDE08075-ENG188621      Remote start cancellation reason store 5-Bits 0-7
+IDE08353-ENG188621      Bypass valve turbocharger: adaptation status-Bits 0-7
+IDE08353-ENG188621      Bypass valve turbocharger: adaptation status-Bits 0-7
+IDE08353-ENG188621      Bypass valve turbocharger: adaptation status-Bits 0-7
+IDE08353-ENG188621      Bypass valve turbocharger: adaptation status-Bits 0-7
+IDE09307-ENG188621      Pre-ignition counter cylinder 1-Bits 0-7
+IDE09307-ENG188621      Pre-ignition counter cylinder 1-Bits 0-7
+IDE09308-ENG188621      Pre-ignition counter cylinder 2-Bits 0-7
+IDE09308-ENG188621      Pre-ignition counter cylinder 2-Bits 0-7
+IDE09309-ENG188621      Pre-ignition counter cylinder 3-Bits 0-7
+IDE09309-ENG188621      Pre-ignition counter cylinder 3-Bits 0-7
+IDE09310-ENG188621      Pre-ignition counter cylinder 4-Bits 0-7
+IDE09310-ENG188621      Pre-ignition counter cylinder 4-Bits 0-7
+IDE09313-ENG188621      Pre-ignition counter over serv.life cylinder 1-Bits 0-7
+IDE09313-ENG188621      Pre-ignition counter over serv.life cylinder 1-Bits 0-7
+IDE09314-ENG188621      Pre-ignition counter over serv.life cylinder 2-Bits 0-7
+IDE09314-ENG188621      Pre-ignition counter over serv.life cylinder 2-Bits 0-7
+IDE09315-ENG188621      Pre-ignition counter over serv.life cylinder 3-Bits 0-7
+IDE09315-ENG188621      Pre-ignition counter over serv.life cylinder 3-Bits 0-7
+IDE09316-ENG188621      Pre-ignition counter over serv.life cylinder 4-Bits 0-7
+IDE09316-ENG188621      Pre-ignition counter over serv.life cylinder 4-Bits 0-7
+IDE09319-ENG188621      Pre-ignition action counter injection cut-off-Bits 0-7
+IDE09320-ENG188621      Pre-ignition action counter fill level limit-Bits 0-7
+IDE09529                Fuel mass flow rate due to degassing of eng. oil
+IDE09531                Total mass of gasoline and alcohol in oil
+IDE09532                Correction factor for fuel mixture
+IDE09572                O2 sensor dwnstrm. of cat.: gradient transfer lean -> rich
+IDE09574                O2 sens. dwnstrm. of cat.: gradient transf. rich -> lean
+IDE09695-ENG188621      Charisma driving program: target value from coordinator-Bits 0-7
+IDE09696-ENG188621      Charisma driving program: CAN output value-Bits 0-7
+IDE09925-ENG188621      Intake camshaft bank 1: adaption error cause-Bits 0-7
+IDE09926-ENG188621      Outlet camshaft bank 1: adaption error cause-Bits 0-7
+IDE09927                Intake camshaft bank 1: adaption hardware offset active
+IDE09927-ENG127289      Intake camshaft bank 1: adaption hardware offset active-Test_Program_B TRUE UBYTE
+IDE09928                Outlet camshaft bank 1: adaption hardware offset active
+IDE09928-ENG127289      Outlet camshaft bank 1: adaption hardware offset active-Test_Program_B TRUE UBYTE
+IDE09929                Intake camshaft bank 1: adaption value hardware offset active
+IDE09930                Outlet camshaft bank 1: adaption value hardware offset active
+IDE09931                Outlet camshaft bank 1: adaption value sensor tolerance
+IDE09932                Intake camshaft B1: adaptation value sensor tolerance
+IDE09942                Long-term adaptation of mixture formation FSI: additive
+IDE09943                Long-term adaptation of mixture formation FSI: multiplicative
+IDE09944                Long-term adaptation of mixture formation MPI: additive
+IDE09945                Long-term adaptation of mixture formation MPI: multiplicative
+IDE10040-ENG188621      Outlet camshaft bank 1 active operating mode-Bits 0-7
+IDE10041                Intake camshaft B1 active operating state
+IDE10042                Outlet camshaft bank 1 status adaption
+IDE10042-ENG127372      Outlet camshaft bank 1 status adaption-Test_Program_Epm Ca S st Adap State UBYTE
+IDE10043                intake camshaft bank 1 status adaption
+IDE10043-ENG127372      intake camshaft bank 1 status adaption-Test_Program_Epm Ca S st Adap State UBYTE
+IDE10120                Chain elongation inlet: mileage of the last adaptation
+IDE10121                Chain elongation outlet: mileage of the last adaptation
+IDE10122                Chain elongation outlet bank 2: mileage of the last adaptation
+IDE10123                Chain elongation inlet bank 2: mileage of the last adaptation
+IDE10302                Time since engine start
+IDE10303                Integrated air masse at first engine start
+IDE10366                Chg. press. ctrl. valve: sensor voltage max. value
+IDE10560-ENG188621      Adaption of radiator shutters: status-Bits 0-7
+IDE10630                O2 sensor befor CAT: delay time changeover rich -> lean
+IDE10641                Low fuel pressure adaptation value for EFP: modeled
+IDE10670                O2 sensor befor CAT: filter time constant changeover rich -> lean
+IDE10710-ENG125936      Exhaust warning light: triggering contr. module-Blinking_MIL_due_to_misfire_is_causing_catalyst_damage
+IDE10710-ENG130107      Exhaust warning light: triggering contr. module-MIL Request from Transmission Control Module
+IDE10710-ENG355207      Exhaust warning light: triggering contr. module-MIL_Request_from_BCCM
+IDE10710-ENG353763      Exhaust warning light: triggering contr. module-MIL_Request_from_DCDC
+IDE10710-ENG125937      Exhaust warning light: triggering contr. module-MIL_request_register_ident
+IDE10710-ENG130099      Exhaust warning light: triggering contr. module-MIL-Request from All Wheel Drive Control Module
+IDE10710-ENG130102      Exhaust warning light: triggering contr. module-MIL-Request from Battery Energy Control Module
+IDE10710-ENG137566      Exhaust warning light: triggering contr. module-MIL-Request from Battery Energy Control Module 48V
+IDE10710-ENG130110      Exhaust warning light: triggering contr. module-MIL-Request from Brake System Control Module
+IDE10710-ENG130100      Exhaust warning light: triggering contr. module-MIL-Request from Brake System Control Module 2
+IDE10710-ENG130103      Exhaust warning light: triggering contr. module-MIL-Request from Drive Motor Control Module
+IDE10710-ENG130109      Exhaust warning light: triggering contr. module-MIL-Request from Drive Motor Control Module 2
+IDE10710-ENG137567      Exhaust warning light: triggering contr. module-MIL-Request from Drive Motor Control Module 48V
+IDE10710-ENG130105      Exhaust warning light: triggering contr. module-MIL-Request from Engine Control Module
+IDE10710-ENG130106      Exhaust warning light: triggering contr. module-MIL-Request from Engine Control Module 2
+IDE10710-ENG130111      Exhaust warning light: triggering contr. module-MIL-Request from HVAC Control Module
+IDE10710-ENG130108      Exhaust warning light: triggering contr. module-MIL-Request from Transmission Control Module 2
+IDE10994-ENG188621      Poor start counter at start-stop-Bits 0-7
+IDE10994-ENG188621      Poor start counter at start-stop-Bits 0-7
+IDE11081                AVS operating state: inlet
+IDE11083-ENG160864      Special software: name-SigXL Bypass tool output name 4F47
+IDE11115-ENG188621      Start/stop driver request: counter restart by starter-Bits 0-7
+IDE11115-ENG188621      Start/stop driver request: counter restart by starter-Bits 0-7
+IDE11116-ENG188621      Start/stop driver request: counter internal-motor restart-Bits 0-7
+IDE11116-ENG188621      Start/stop driver request: counter internal-motor restart-Bits 0-7
+IDE11293                Fuel consumption difference: injectors/sensors
+IDE11294                Fuel level difference: fuel level sensor vs. actual consumption
+IDE11372                Camshaft angle adaptation: inlet deviation
+IDE11541-ENG188621      Autom.pre-selection sys operat.state of the actuator test-Bits 0-7
+IDE11931                Heated oxygen sensor bank 1 sensor 1: positioning intervention rear cat controller
+IDE12355                ESI: consumption equivalent of the engine control module
+IDE12453                Knock sensor based camshaft angle adjustment: counter
+IDE80106                Analysis 106
+MAS15845                Fuel: tank fill level
+MAS16066                Exhaust gas temperature at the probe before PreCat bank 1: model value
+MAS16222                Heated oxygen sensor bank 1 probe 1: status 2G
+MAS16222-ENG127289      Heated oxygen sensor bank 1 probe 1: status 2G-Test_Program_B TRUE UBYTE
+MAS16223                Heated oxygen sensor bank 1 probe 2: status 2G
+MAS16223-ENG127289      Heated oxygen sensor bank 1 probe 2: status 2G-Test_Program_B TRUE UBYTE
+MAS16299                Heated oxygen sensor 1 probe 1: status dew point end
+MAS16299-ENG127289      Heated oxygen sensor 1 probe 1: status dew point end-Test_Program_B TRUE UBYTE
+MAS16300                Heated oxygen sensor 1 probe 2: status dew point end
+MAS16300-ENG127289      Heated oxygen sensor 1 probe 2: status dew point end-Test_Program_B TRUE UBYTE
+MAS16534-ENG188621      A/C compressor info: switch-off status-Bits 0-7
+MAS16534-ENG188621      A/C compressor info: switch-off status-Bits 0-7
+MAS16534-ENG188621      A/C compressor info: switch-off status-Bits 0-7
+MAS16534-ENG188621      A/C compressor info: switch-off status-Bits 0-7
+ENG119898               Actual_section_of_standard_test
+ENG112666               Air conditioner pressure linearised raw value
+ENG112928-ENG188621     Air_conditioning_compressor_actual_status-Bits 0-7
+ENG114518               Air_flow_rate_intake_manifold_adaptation_value
+ENG105149               Air_mass_integral_for_thermostat_diagnosis_actual_value
+ENG105150               Air_mass_integral_for_thermostat_diagnosis_limit_value
+ENG157506-ENG188621     AVS_Cam_element_position_error_counter_lift_0-Bits 0-7
+ENG157506-ENG188621     AVS_Cam_element_position_error_counter_lift_0-Bits 0-7
+ENG157506-ENG188621     AVS_Cam_element_position_error_counter_lift_0-Bits 0-7
+ENG157506-ENG188621     AVS_Cam_element_position_error_counter_lift_0-Bits 0-7
+ENG157507-ENG188621     AVS_Cam_element_position_error_counter_lift_1-Bits 0-7
+ENG157507-ENG188621     AVS_Cam_element_position_error_counter_lift_1-Bits 0-7
+ENG157507-ENG188621     AVS_Cam_element_position_error_counter_lift_1-Bits 0-7
+ENG157507-ENG188621     AVS_Cam_element_position_error_counter_lift_1-Bits 0-7
+ENG157508-ENG188621     AVS_Cam_element_position_error_counter_manifold_pressure_diagnosis-Bits 0-7
+ENG157508-ENG188621     AVS_Cam_element_position_error_counter_manifold_pressure_diagnosis-Bits 0-7
+ENG157508-ENG188621     AVS_Cam_element_position_error_counter_manifold_pressure_diagnosis-Bits 0-7
+ENG157508-ENG188621     AVS_Cam_element_position_error_counter_manifold_pressure_diagnosis-Bits 0-7
+ENG157509-ENG188621     AVS_Cam_element_position_error_counter_misfire_detection-Bits 0-7
+ENG157509-ENG188621     AVS_Cam_element_position_error_counter_misfire_detection-Bits 0-7
+ENG157509-ENG188621     AVS_Cam_element_position_error_counter_misfire_detection-Bits 0-7
+ENG157509-ENG188621     AVS_Cam_element_position_error_counter_misfire_detection-Bits 0-7
+ENG121428-ENG188621     AVS_counter_error_debonce-Bits 0-7
+ENG121428-ENG188621     AVS_counter_error_debonce-Bits 0-7
+ENG121429-ENG188621     AVS_counter_error_limphome-Bits 0-7
+ENG121429-ENG188621     AVS_counter_error_limphome-Bits 0-7
+ENG121426-ENG188621     AVS_counter_sporadic_diagnosis_errors-Bits 0-7
+ENG121426-ENG188621     AVS_counter_sporadic_diagnosis_errors-Bits 0-7
+ENG121427-ENG188621     AVS_counter_sporadic_switch_errors-Bits 0-7
+ENG121427-ENG188621     AVS_counter_sporadic_switch_errors-Bits 0-7
+ENG112670-ENG112664     Brake_booster_start_request_combustion_engine-Bbkvs ta
+ENG101413               Calibration Identifications
+ENG99697                Calibration Verification Numbers
+ENG139866-ENG188621     Com st X Set1 Val1-Bits 0-7
+ENG139866-ENG188621     Com st X Set1 Val1-Bits 0-7
+ENG139867-ENG188621     Com st X Set1 Val2-Bits 0-7
+ENG139867-ENG188621     Com st X Set1 Val2-Bits 0-7
+ENG139868-ENG188621     Com st X Set1 Val3-Bits 0-7
+ENG139868-ENG188621     Com st X Set1 Val3-Bits 0-7
+ENG139869-ENG188621     Com st X Set1 Val4-Bits 0-7
+ENG139869-ENG188621     Com st X Set1 Val4-Bits 0-7
+ENG139870-ENG188621     Com st X Set1 Val5-Bits 0-7
+ENG139870-ENG188621     Com st X Set1 Val5-Bits 0-7
+ENG139871-ENG188621     Com st X Set1 Val6-Bits 0-7
+ENG139871-ENG188621     Com st X Set1 Val6-Bits 0-7
+ENG139872-ENG188621     Com st X Set1 Val7-Bits 0-7
+ENG139872-ENG188621     Com st X Set1 Val7-Bits 0-7
+ENG139873-ENG188621     Com st X Set2 Val1-Bits 0-7
+ENG139873-ENG188621     Com st X Set2 Val1-Bits 0-7
+ENG139874-ENG188621     Com st X Set2 Val2-Bits 0-7
+ENG139874-ENG188621     Com st X Set2 Val2-Bits 0-7
+ENG139875-ENG188621     Com st X Set2 Val3-Bits 0-7
+ENG139875-ENG188621     Com st X Set2 Val3-Bits 0-7
+ENG139876-ENG188621     Com st X Set2 Val4-Bits 0-7
+ENG139876-ENG188621     Com st X Set2 Val4-Bits 0-7
+ENG139877-ENG188621     Com st X Set2 Val5-Bits 0-7
+ENG139877-ENG188621     Com st X Set2 Val5-Bits 0-7
+ENG139878-ENG188621     Com st X Set2 Val6-Bits 0-7
+ENG139878-ENG188621     Com st X Set2 Val6-Bits 0-7
+ENG139879-ENG188621     Com st X Set2 Val7-Bits 0-7
+ENG139879-ENG188621     Com st X Set2 Val7-Bits 0-7
+ENG139880-ENG188621     Com st X Set3 Val1-Bits 0-7
+ENG139880-ENG188621     Com st X Set3 Val1-Bits 0-7
+ENG139881-ENG188621     Com st X Set3 Val2-Bits 0-7
+ENG139881-ENG188621     Com st X Set3 Val2-Bits 0-7
+ENG139882-ENG188621     Com st X Set3 Val3-Bits 0-7
+ENG139882-ENG188621     Com st X Set3 Val3-Bits 0-7
+ENG139883-ENG188621     Com st X Set3 Val4-Bits 0-7
+ENG139883-ENG188621     Com st X Set3 Val4-Bits 0-7
+ENG139884-ENG188621     Com st X Set3 Val5-Bits 0-7
+ENG139884-ENG188621     Com st X Set3 Val5-Bits 0-7
+ENG139885-ENG188621     Com st X Set3 Val6-Bits 0-7
+ENG139885-ENG188621     Com st X Set3 Val6-Bits 0-7
+ENG139886-ENG188621     Com st X Set3 Val7-Bits 0-7
+ENG139886-ENG188621     Com st X Set3 Val7-Bits 0-7
+ENG132845-ENG188621     Configuration_of_cruise_control-Bits 0-7
+ENG126402-ENG188621     Cruise_control_shutoff_conditions_irreversible-Bits 0-7
+ENG126402-ENG188621     Cruise_control_shutoff_conditions_irreversible-Bits 0-7
+ENG126403-ENG188621     Cruise_control_shutoff_conditions_reversible-Bits 0-7
+ENG126403-ENG188621     Cruise_control_shutoff_conditions_reversible-Bits 0-7
+ENG126403-ENG188621     Cruise_control_shutoff_conditions_reversible-Bits 0-7
+ENG126403-ENG188621     Cruise_control_shutoff_conditions_reversible-Bits 0-7
+ENG122710               Cruise_control_velocity_setpoint
+ENG111031-ENG188621     DFC_status_error_debounced_counter-Bits 0-7
+ENG111031-ENG188621     DFC_status_error_debounced_counter-Bits 0-7
+ENG111033-ENG188621     DFC_status_tested_counter-Bits 0-7
+ENG111033-ENG188621     DFC_status_tested_counter-Bits 0-7
+ENG111032-ENG188621     DFC_status_untested_counter-Bits 0-7
+ENG111032-ENG188621     DFC_status_untested_counter-Bits 0-7
+ENG126404-ENG188621     Drive_train_coordinator_checked_coding-Bits 0-7
+ENG112930               Driving_torque_coordinator_requested_driving_torque_from_GRA
+ENG111582               DrivingProgramSwitch_sport_mode_activated
+ENG111582-ENG127289     DrivingProgramSwitch_sport_mode_activated-Test_Program_B TRUE UBYTE
+ENG100152-ENG104003     ECUNAME-ECU
+ENG100152               ECUNAME
+ENG114220               Effective_injection_duration
+ENG111593               Emachine_achievable_enginetorque_maximum_value
+ENG111594               Emachine_achievable_generatortorque_maximum_value
+ENG112932               Engine_oil_temperature_measured_value
+ENG111034               Engine_temperature_modelbased_substitute_value
+ENG112302               EngineCoordinator_activation_within_quasistationary_limits_of_EIM
+ENG112302-ENG127289     EngineCoordinator_activation_within_quasistationary_limits_of_EIM-Test_Program_B TRUE UBYTE
+ENG111568               EngineCoordinator_intervention_request_actual_value
+ENG112301               EngineManagement_activation_limited_reduction_of_efficiency
+ENG112301-ENG127289     EngineManagement_activation_limited_reduction_of_efficiency-Test_Program_B TRUE UBYTE
+ENG111610               Epm Ca S phi Adap Ref Pos O1 mp 0
+ENG157860               ExhMgT_fetak_hllfa_msg
+ENG157861               ExhMgT_fetak_htlfa_msg
+ENG157880               Fl Lvl vol Tnk Plaus Old
+ENG111608               Fuel_consumption_actual_driving_cycle
+ENG106769-ENG188621     Gearbox_heat_request-Bits 0-7
+ENG112667               Generator load normalised value
+ENG112931               Generator_load_from_CAN
+ENG112929               Generator_torque_request
+ENG107045               Intake_manifold_model_air_mass_flow_filtered_value
+ENG100634               In-use Performance Tracking: 16 or 20 counters
+ENG110574               Lambdacoordination_homogeneous_mode_range_limited_commanded_value
+ENG111606               Load value: unrestricted commanded value
+ENG125271               Maximum_ratio_between_evaporated_fuel_mass_from_engine_oil_and_base_fuel_mass_needed_for_the_c...
+ENG111040               Misfire_detection_sensor_wheel_adaptation_speed_load_range_index
+ENG158050-ENG188621     Mo XEMM st EMM Alrms Idx0-Bits 0-7
+ENG158050-ENG188621     Mo XEMM st EMM Alrms Idx0-Bits 0-7
+ENG158050-ENG188621     Mo XEMM st EMM Alrms Idx0-Bits 0-7
+ENG158050-ENG188621     Mo XEMM st EMM Alrms Idx0-Bits 0-7
+ENG158051-ENG188621     Mo XEMM st EMM Alrms Idx1-Bits 0-7
+ENG158051-ENG188621     Mo XEMM st EMM Alrms Idx1-Bits 0-7
+ENG158051-ENG188621     Mo XEMM st EMM Alrms Idx1-Bits 0-7
+ENG158051-ENG188621     Mo XEMM st EMM Alrms Idx1-Bits 0-7
+ENG111571               Mode_control_activation_P1_mode
+ENG111571-ENG127289     Mode_control_activation_P1_mode-Test_Program_B TRUE UBYTE
+ENG107660               Mode_control_commanded_dragmoment_for_em
+ENG107661-ENG188621     Mode_control_operating_status_hybrid_system_bitcoded-Bits 0-7
+ENG107661-ENG188621     Mode_control_operating_status_hybrid_system_bitcoded-Bits 0-7
+ENG107662-ENG188621     Mode_control_start_mode_commanded_value-Bits 0-7
+ENG111581-ENG188621     Mode_control_start_order_combustion_engine-Bits 0-7
+ENG107663               Mode_control_torque_electrical_auxilary_systems_requested_value
+ENG112668               O2 sensor_controller_bank_1_p-rate
+ENG158068-ENG188621     OEM2RB VW Byp flg E Hmnplt u8-Bits 0-7
+ENG108262               Powertrain_overall_gear_ratio
+ENG111605               Pressure_before_throttle_valve_actual_value
+ENG125270               Ratio_between_evaporated_fuel_mass_from_engine_oil_and_base_fuel_mass_needed_for_the_combustion
+ENG109006               Spark_efficiency_deviation_at_idle_maximum
+ENG109007               Spark_efficiency_deviation_at_part_load_maximum
+ENG121093-ENG188621     State_of_cruise_control_or_speedlimiter-Bits 0-7
+ENG132858-ENG188621     State_of_requestor_for_drivetrain_coordinator-Bits 0-7
+ENG139760               Thr Vlv u Sens1 B1
+ENG139761               Thr Vlv u Sens2 B1
+ENG132847               Top_speed_limitation
+ENG109528               Torque_coordination_idle_speed_control_torque_actual_value_air_path
+ENG109529               Torque_coordination_idle_speed_control_torque_SET_path_actual_value
+ENG109533               Torque_distribution_Emaschine_combustion_engine_driver_request
+ENG132857-ENG188621     Transmission_state_of_drivetrain_coordinator-Bits 0-7
+ENG132857-ENG188621     Transmission_state_of_drivetrain_coordinator-Bits 0-7
+ENG111604               Turbocharger_inlet_pressure_corrected_value
+ENG119911               UEGO r Lam S1 B1
+ENG132846               Velocity_limiter_setpoint
+ENG158334               Virtual_SigXSet_SyC_tiPostDrv
+ENG158335               Virtual_SigXSet_TiEngOff_tiDiagRef
+ENG158336               Virtual_SigXSet_TiEngOff_tiStopCnt_Dif
+ENG158337               Virtual_SigXSet_TiEngOff_tiStopCnt_Raw
+ENG158338               Virtual_SigXSet_TiOff_tiStrtEnd_Off
